@@ -1,0 +1,25 @@
+-----------------------------------------------------------------------------------------
+PROCESSOR:
+Author: 2016eeb1087(sanket Nyayadhish)
+Date: 22/12/2017
+
+------------------------------------------------------------------------------------------
+command: ./assembler program.asm  Input_Memory
+         iverilog -o Test_processor.vvp Test_processor.v
+         vvp Test_processor.vvp
+         gtkwave Processor.vcd  //(for analysis.)
+------------------------------------------------------------------------------------------
+
+* I Designed a Processor in Processor.v and included this file in Test_processor.v. 
+* I Created a instance of Processor(P) in test file an also created instances of
+  IF (IF1) ,OF (OF1) , EX (EX1) , MA (MA1) , WB (WB1) , Register_File (RF1) , Memory (M1) 
+  ALU (ALU1) in Processor.v.
+* The Assembly Code is in "program.asm" file.
+* The Hex Instructions are in "Input_Memory" file.
+* The output i.e. updated memory and updated registers values are stored in a "Updated_data" file. 
+
+*Note: The Simulation time is constant(`td) and can be changed from the Test_processor.v.
+
+
+
+------------------------------------THE-END-----------------------------------------
