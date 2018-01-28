@@ -15,6 +15,7 @@ This is based on the idea provided by dr.Smruti ranjan sarangi sir(IIT Delhi,Com
   4. Memory Access     (MA)
   5. Writeback         (WB)
   -------------------------------------------------------------------------------------------------------------------
+  ![SINGLE CYCLE PROCESSOR](https://github.com/sanketny8/Processor_32bit_RISC_verilog/blob/master/68747470733a2f2f756e646572677261642e6878696e672e6d652f56453337302f53696e676c652b4379636c652b536368656d61746963732e706e673f782d736f757263653d676974687562.png)
 # Memory
 
  * It has 4KB of Random access memory.
