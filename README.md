@@ -50,14 +50,14 @@ Arithmetc Instructions:
 
 Others:
 
-1.nop
-2.ld
-3.st
-4.beq
-5.bgt
-6.b
-7.call
-8.ret
+1. nop
+2. ld
+3. st
+4. beq
+5. bgt
+6. b
+7. call
+8. ret
 
 --------------------------------------------------------------------------------------------------------------
 # Assembly Program
