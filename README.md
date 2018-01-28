@@ -5,8 +5,10 @@ This is based on the idea provided by dr.Smruti ranjan sarangi sir(IIT Delhi,Com
 
 ---------------------------------------------------------------------------------------------------------------------
 # Description
+
   * This is Single cycle processor.
-  * It has five stages mainly, 
+  * It has five stages mainly, 
+  
   1. Instruction Fetch (IF)
   2. Operand Fetch     (OF)
   3. Execute           (EX)
